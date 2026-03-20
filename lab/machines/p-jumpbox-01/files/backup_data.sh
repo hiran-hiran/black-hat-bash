@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 CURRENT_DATE=$(date +%y-%m-%d)
 
 if [[ ! -d "/data/backup" ]]; then

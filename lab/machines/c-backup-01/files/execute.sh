@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # This script is executed every minute on c-backup-01 to do maintenance work.
 
