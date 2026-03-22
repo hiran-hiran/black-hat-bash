@@ -8,3 +8,4 @@
 - docs/environment.md - 環境構成
 - docs/progress.md - 学習進捗
 - docs/tips.md - 注意点・Tips
+- docs/kali-container.md - Kali攻撃用コンテナの使い方

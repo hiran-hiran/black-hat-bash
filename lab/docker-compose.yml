@@ -1,4 +1,19 @@
 services:
+  kali:
+    container_name: kali
+    hostname: kali
+    build:
+      context: machines/kali
+      dockerfile: Dockerfile
+    stdin_open: true
+    tty: true
+    cap_add:
+      - NET_RAW
+      - NET_ADMIN
+    networks:
+      public:
+        ipv4_address: 172.16.10.100
+
   p-jumpbox-01:
     container_name: p-jumpbox-01
     hostname: p-jumpbox-01.acme-infinity-servers.com
