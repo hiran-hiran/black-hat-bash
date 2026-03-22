@@ -10,6 +10,8 @@ RUN apt update && apt install -y --no-install-recommends \
     iputils-ping \
     iproute2 \
     vim-tiny \
+    whatweb \
+    jq \
     && rm -rf /var/lib/apt/lists/*
 
 RUN wget -q https://github.com/RustScan/RustScan/releases/download/2.3.0/rustscan_2.3.0_amd64.deb -O /tmp/rustscan.deb \
