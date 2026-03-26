@@ -36,9 +36,17 @@ docker compose up -d kali
 ## インストール済みツール
 - nmap
 - netcat-openbsd
-- curl
+- curl, wget
 - dnsutils (dig, nslookup)
 - arp-scan
 - iputils-ping
 - iproute2
 - vim-tiny
+- whatweb, jq
+- nikto
+- tree
+- dirsearch
+- ffuf, wfuzz (Dockerfile追記済み、未リビルド)
+- nuclei (手動インストール、リビルドで消える)
+- git, git-dumper (手動インストール、リビルドで消える)
+- ftp (手動インストール、リビルドで消える)

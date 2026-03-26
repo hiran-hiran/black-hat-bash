@@ -12,6 +12,11 @@ RUN apt update && apt install -y --no-install-recommends \
     vim-tiny \
     whatweb \
     jq \
+    nikto \
+    tree \
+    dirsearch \
+    ffuf \
+    wfuzz \
     && rm -rf /var/lib/apt/lists/*
 
 RUN wget -q https://github.com/RustScan/RustScan/releases/download/2.3.0/rustscan_2.3.0_amd64.deb -O /tmp/rustscan.deb \

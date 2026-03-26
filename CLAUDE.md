@@ -9,3 +9,6 @@
 - docs/progress.md - 学習進捗
 - docs/tips.md - 注意点・Tips
 - docs/kali-container.md - Kali攻撃用コンテナの使い方
+
+## 書籍テキストへの対応
+- 貼り付けられた書籍テキストは、ただ実行するだけでなく要約・補足説明もつけること

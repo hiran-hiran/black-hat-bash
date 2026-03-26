@@ -54,17 +54,21 @@ services:
     build: 
       context: machines/
       dockerfile: p-ftp-01/Dockerfile
+    ports:
+      - "8011:80"
     networks:
       public:
         ipv4_address: 172.16.10.11
-  
+
   p-web-01:
     container_name: p-web-01
     hostname: p-web-01.acme-infinity-servers.com
     privileged: true
-    build: 
+    build:
       context: machines/p-web-01
       dockerfile: Dockerfile
+    ports:
+      - "8010:8081"
     networks:
       public:
         ipv4_address: 172.16.10.10
@@ -75,11 +79,13 @@ services:
     container_name: p-web-02
     privileged: true
     hostname: p-web-02.acme-infinity-servers.com
-    build: 
+    build:
       context: machines/p-web-02
       dockerfile: Dockerfile
+    ports:
+      - "8012:80"
     volumes:
-      - p_web_02_vol:/var/www/html    
+      - p_web_02_vol:/var/www/html
     networks:
       public:
         ipv4_address: 172.16.10.12
