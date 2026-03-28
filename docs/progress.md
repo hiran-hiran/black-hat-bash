@@ -6,10 +6,8 @@
 - **ch03**: lab環境セットアップ（Docker deploy完了、Kali攻撃用コンテナ追加）
 - **ch04**: 偵察 - ホスト発見（ping/nmap/arp-scan）、ポートスキャン（nmap/rustscan/nc）、バナーグラビング（nc/curl/nmap NSE/whatweb/jq）
 
+- **ch05**: 脆弱性スキャンとファジング - Nikto Webスキャン、ディレクトリインデックススキャナー構築、robots.txt解析、dirsearch辞書攻撃（/upload・.git発見）、Gitリポジトリ探索（git-dumper）、Nuclei脆弱性スキャン（カスタムテンプレート・FTP匿名アクセス検出）、ファジング（ffuf/wfuzz）、Nmap NSE SSH診断
+  - ※ffuf/wfuzzの実行は未完（ネットワーク都合でKaliリビルド未実施）
+
 ## 進行中
-- **ch05**: 脆弱性スキャンとファジング（5.4まで完了、5.5途中）
-  - 5.1 Nikto Webスキャン（3ターゲット）、ディレクトリインデックススキャナー構築、robots.txt解析
-  - 5.2 dirsearch 辞書攻撃（/upload発見、.gitリポジトリ発見）
-  - 5.3 Gitリポジトリ探索（git-dumperでクローン、コミッター情報収集）
-  - 5.4 Nuclei 脆弱性スキャン（カスタムテンプレート作成、フルスキャン、FTP匿名アクセス検出）
-  - 5.5 ファジング（辞書ファイル作成まで、ffuf/wfuzz未実行）
+- **ch06**: Webシェルの取得
