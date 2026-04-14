@@ -19,5 +19,7 @@
 
 - **ch09**: 権限昇格 - ファイル権限（rwx・SetUID・ACL）、findによる権限ベース検索、認証情報収集（パスワード・秘密鍵・証明書）、sudo設定の悪用（vi・curl）、PATH乗っ取り、cronジョブ悪用、カーネルエクスプロイト検索（SearchSploit・Linux Exploit Suggester 2）、別アカウントへの辞書攻撃、GTFOBins、権限昇格自動化ツール（LinEnum・unix-privesc-check等）
 
+- **ch10**: 永続化 - サービス設定改変（System V init.d・systemd）、PAM悪用（pam_exec.so）、不正SSHキー生成、デフォルトシステムアカウント再利用、bash環境ファイル汚染（trapフック・PROMPT_COMMAND）、認証情報窃取（Vim autocmd・履歴リアルタイム送信・偽sudo）、悪意あるdebパッケージ配布（postinst/postrm）、alien形式変換
+
 ## 進行中
-- **ch10**: （次章）
+- **ch11**: （次章）
