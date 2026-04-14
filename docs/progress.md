@@ -17,5 +17,7 @@
 - **ch08**: ローカルの情報収集 - FHS（ディレクトリ構造）、シェル環境・環境変数、ユーザー・グループ（/etc/passwd）、プロセス調査（ps・/proc）、OS特定、ネットワーク情報（ip addr・netstat・iptables）、DNS、インストール済みソフトウェア、ストレージ・マウント、ログ、設定ファイル、cronジョブ、仮想化検出、LinEnum
   - ※主要発見: jumpboxマルチホーミング（10.1.0.0/24）、wp-config.phpからDB認証情報、execute.sh・backup_data.shの権限昇格経路、Living off the Land（標準コマンドのみで情報収集）
 
+- **ch09**: 権限昇格 - ファイル権限（rwx・SetUID・ACL）、findによる権限ベース検索、認証情報収集（パスワード・秘密鍵・証明書）、sudo設定の悪用（vi・curl）、PATH乗っ取り、cronジョブ悪用、カーネルエクスプロイト検索（SearchSploit・Linux Exploit Suggester 2）、別アカウントへの辞書攻撃、GTFOBins、権限昇格自動化ツール（LinEnum・unix-privesc-check等）
+
 ## 進行中
-- **ch09**: （次章）
+- **ch10**: （次章）
