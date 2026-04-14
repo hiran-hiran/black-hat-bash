@@ -21,5 +21,7 @@
 
 - **ch10**: 永続化 - サービス設定改変（System V init.d・systemd）、PAM悪用（pam_exec.so）、不正SSHキー生成、デフォルトシステムアカウント再利用、bash環境ファイル汚染（trapフック・PROMPT_COMMAND）、認証情報窃取（Vim autocmd・履歴リアルタイム送信・偽sudo）、悪意あるdebパッケージ配布（postinst/postrm）、alien形式変換
 
+- **ch11**: ネットワークの調査と横移動 - /etc/servicesとnmap-servicesを用いたポートスキャン（ポート開放頻度）、共有ボリュームのcronスクリプト悪用（c-backup-01侵害）、SSHポートフォワーディング、MariaDB辞書攻撃（Medusa）・WordPress管理者アカウント追加、Redis CONFIG SET悪用（SSH公開鍵書き込み）・Metasploit auxiliary、放置されたSQLファイルからの認証情報取得・Adminer・INTO OUTFILEによるWebシェルアップロード
+
 ## 進行中
-- **ch11**: （次章）
+- **ch12**: （次章）
