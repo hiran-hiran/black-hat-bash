@@ -23,5 +23,7 @@
 
 - **ch11**: ネットワークの調査と横移動 - /etc/servicesとnmap-servicesを用いたポートスキャン（ポート開放頻度）、共有ボリュームのcronスクリプト悪用（c-backup-01侵害）、SSHポートフォワーディング、MariaDB辞書攻撃（Medusa）・WordPress管理者アカウント追加、Redis CONFIG SET悪用（SSH公開鍵書き込み）・Metasploit auxiliary、放置されたSQLファイルからの認証情報取得・Adminer・INTO OUTFILEによるWebシェルアップロード
 
-## 進行中
-- **ch12**: （次章）
+- **ch12**: 防御回避とデータ窃取 - セキュリティ対策機構の検出（SELinux/AppArmor/auditd/FW）、プロセス偽装（exec -a・argv[0]書き換え）、LD_PRELOAD/ld.so.preloadによる共有ライブラリ事前読み込み、utmp/wtmp/lastlogの改ざんによるログイン痕跡隠蔽、多様なチャネルでのデータ窃取（HTTP/DNSトンネル/ICMP/SSH/メール）
+
+## 完了（本書すべて読了）
+- 全12章 完走
